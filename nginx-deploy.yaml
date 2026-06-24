@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: nginx-app
-        image: kimgang/nginxweb:v1.0
+        image: kimgang/nginxweb:v2.0
         ports:
         - containerPort: 80
         resources:
